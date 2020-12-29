@@ -109,7 +109,7 @@ const getMapLode = () => {
     const lat = position.coords.latitude;
     const lng = position.coords.longitude;
 
-    const apiHttp = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&lang=${countryLanguage}&appid=${appId}`;
+    const apiHttp = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&lang=${countryLanguage}&appid=${appId}`;
 
     loadweather(apiHttp);
   });
@@ -128,7 +128,7 @@ const bySearchIdApi = id => {
 const getSearchIdLode = () => {
   const searchCountry = searchInput.value;
 
-  const apiHttp = `http://api.openweathermap.org/data/2.5/weather?q=${searchCountry}&units=metric&lang=${countryLanguage}&appid=${appId}`;
+  const apiHttp = `https://api.openweathermap.org/data/2.5/weather?q=${searchCountry}&units=metric&lang=${countryLanguage}&appid=${appId}`;
 
   loadweather(apiHttp);
 };
