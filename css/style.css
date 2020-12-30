@@ -188,7 +188,8 @@ body {
     width: 90%;
     height: 80%;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    background-color: rgba(var(--color-primary-light), 0.4); }
     .right.temp__now {
       font-size: 4.5rem;
       letter-spacing: 0.8rem; }
@@ -218,16 +219,18 @@ body {
       font-size: 1.5rem;
       margin-bottom: 0rem; }
     .left .name {
-      letter-spacing: 0.1rem; }
+      letter-spacing: 0.1rem;
+      text-align: right; }
       .left .name__country {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-right: 0.5rem; }
       .left .name__city {
-        font-size: 2rem; }
+        font-size: 1.5rem; }
   .right {
     width: 100%;
     height: 60%;
-    align-items: center; }
+    align-items: center;
+    background-color: rgba(var(--color-primary-light), 0.4); }
     .right .temp__now {
       font-size: 4rem;
       letter-spacing: 0.4rem; }
