@@ -31,6 +31,7 @@ body {
 .container {
   width: 100%;
   height: 100%;
+  background-image: url("https://source.unsplash.com/1600x900/?love");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -230,7 +231,7 @@ body {
     width: 100%;
     height: 60%;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(85, 85, 85, 0.5);
     backdrop-filter: none; }
     .right .temp__now {
       font-size: 4rem;
